@@ -1,0 +1,31 @@
+body{
+  background-color: rgb(196, 195, 195);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card{
+  width: 350px;
+  word-wrap: break-word;
+  margin-top: 25px;
+  display: flex;
+  flex-flow: column wrap;
+  color: rgb(118, 116, 116);
+  
+ 
+}
+.card img{
+  width: 100%;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+.card h1{
+  color: rgb(113, 113, 114);
+}
+.content{
+  background-color: white;
+  padding: 25px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  box-shadow: 1px 1px 13px 0px gray, -1px 0px 13px 0px gray;
+}
